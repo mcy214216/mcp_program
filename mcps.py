@@ -6,15 +6,12 @@
 MCP Server: 今日计划生成器
 功能：根据用户输入的任务描述，生成今日计划表单，并通过QQ邮箱发送
 """
-
 import re
 from datetime import datetime
 from mcp.server.fastmcp import FastMCP
 import yagmail
-from config import EMAIL_USER, EMAIL_PASSWORD, EMAIL_RECEIVER
-
 # ==================== 邮件配置（请修改为你的信息）====================
-
+from config import EMAIL_USER, EMAIL_PASSWORD, EMAIL_RECEIVER
 # ====================================================================
 
 # 创建MCP服务器实例

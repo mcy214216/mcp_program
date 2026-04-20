@@ -11,11 +11,10 @@ import re
 from datetime import datetime
 from mcp.server.fastmcp import FastMCP
 import yagmail
+from config import EMAIL_USER, EMAIL_PASSWORD, EMAIL_RECEIVER
 
 # ==================== 邮件配置（请修改为你的信息）====================
-EMAIL_USER = "953302984@qq.com"          # 你的邮箱
-EMAIL_PASSWORD = "epzverrwrrngbfii" # 邮箱授权码（不是密码）
-EMAIL_RECEIVER = "953302984@qq.com"    # 接收计划的邮箱（可以是自己）
+
 # ====================================================================
 
 # 创建MCP服务器实例

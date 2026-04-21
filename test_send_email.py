@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # 时间 : 2026/4/21 00:06
 # 作者 : mcy
-# 文件 : cs1.py
+# 文件 : test_send_email.py
 import yagmail
 
 from config import EMAIL_USER, EMAIL_PASSWORD, EMAIL_RECEIVER

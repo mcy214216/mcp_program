@@ -55,8 +55,8 @@ pip install mcp[cli]
 ```
 #### MCP Inspector
 mcp inspector是一个用于检查MCP连接的命令行工具。  
-运行`mcp dev test.py`可以测试MCP连接。  
-![img_3.png](markdown图片使用/img_3.png)  
+运行`mcp dev test.py`可以测试MCP连接。
+![img.png](markdown图片使用/img_png3.png)
 然后点击connect按钮，进行测试。  
 如果测试成功，则返回如下结果：  
 ![img_4.png](markdown图片使用/img_4.png)  
@@ -114,7 +114,7 @@ mcp inspector是一个用于检查MCP连接的命令行工具。
 ![img.png](markdown图片使用/img.png)
 ### mcp在客户端部署
 ![img_7.png](markdown图片使用/img_7.png)
-其结果如下：
+其结果如下：  
 ![img_1.png](markdown图片使用/img_1.png)
 
 
